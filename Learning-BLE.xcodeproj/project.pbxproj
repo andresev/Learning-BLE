@@ -11,6 +11,7 @@
 		4118BCB528E3A1C400BC6327 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4118BCB428E3A1C400BC6327 /* ContentView.swift */; };
 		4118BCB728E3A1C800BC6327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4118BCB628E3A1C800BC6327 /* Assets.xcassets */; };
 		4118BCBA28E3A1C800BC6327 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4118BCB928E3A1C800BC6327 /* Preview Assets.xcassets */; };
+		4118BCC128E3A2CB00BC6327 /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4118BCC028E3A2CB00BC6327 /* BluetoothService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4118BCB428E3A1C400BC6327 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4118BCB628E3A1C800BC6327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4118BCB928E3A1C800BC6327 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4118BCC028E3A2CB00BC6327 /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4118BCB228E3A1C400BC6327 /* Learning_BLEApp.swift */,
 				4118BCB428E3A1C400BC6327 /* ContentView.swift */,
+				4118BCC028E3A2CB00BC6327 /* BluetoothService.swift */,
 				4118BCB628E3A1C800BC6327 /* Assets.xcassets */,
 				4118BCB828E3A1C800BC6327 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4118BCB528E3A1C400BC6327 /* ContentView.swift in Sources */,
+				4118BCC128E3A2CB00BC6327 /* BluetoothService.swift in Sources */,
 				4118BCB328E3A1C400BC6327 /* Learning_BLEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,13 +271,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Learning-BLE/Preview Content\"";
+				DEVELOPMENT_TEAM = 34FATY59X5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow bluetooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,13 +302,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Learning-BLE/Preview Content\"";
+				DEVELOPMENT_TEAM = 34FATY59X5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow bluetooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
