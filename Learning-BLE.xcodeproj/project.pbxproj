@@ -12,6 +12,7 @@
 		4118BCB728E3A1C800BC6327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4118BCB628E3A1C800BC6327 /* Assets.xcassets */; };
 		4118BCBA28E3A1C800BC6327 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4118BCB928E3A1C800BC6327 /* Preview Assets.xcassets */; };
 		4118BCC128E3A2CB00BC6327 /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4118BCC028E3A2CB00BC6327 /* BluetoothService.swift */; };
+		4141D19328ECC98D00557840 /* BluetoothPeripheralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141D19228ECC98D00557840 /* BluetoothPeripheralView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4118BCB628E3A1C800BC6327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4118BCB928E3A1C800BC6327 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4118BCC028E3A2CB00BC6327 /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
+		4141D19228ECC98D00557840 /* BluetoothPeripheralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPeripheralView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				4118BCC028E3A2CB00BC6327 /* BluetoothService.swift */,
 				4118BCB628E3A1C800BC6327 /* Assets.xcassets */,
 				4118BCB828E3A1C800BC6327 /* Preview Content */,
+				4141D19228ECC98D00557840 /* BluetoothPeripheralView.swift */,
 			);
 			path = "Learning-BLE";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4118BCB528E3A1C400BC6327 /* ContentView.swift in Sources */,
+				4141D19328ECC98D00557840 /* BluetoothPeripheralView.swift in Sources */,
 				4118BCC128E3A2CB00BC6327 /* BluetoothService.swift in Sources */,
 				4118BCB328E3A1C400BC6327 /* Learning_BLEApp.swift in Sources */,
 			);
